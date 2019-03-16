@@ -13,9 +13,9 @@ target 'AutoLayoutWihtSnapkit' do
     # Pods for testing
   end
 
-  target 'AutoLayoutWihtSnapkitUITests' do
+  target 'AutoLayoutWihtSnapkitTestsUI' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'EarlGrey'
   end
 
 end
