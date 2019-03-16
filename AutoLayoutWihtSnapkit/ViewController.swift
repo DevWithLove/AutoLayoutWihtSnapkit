@@ -46,6 +46,7 @@ class ViewController: UIViewController {
         button.setTitle("Update Constraint", for: .normal)
         button.setTitleColor(.black, for: .normal)
         button.backgroundColor = .white
+        button.accessibilityIdentifier = HomeElements.updateButton.identifier
         button.addTarget(self, action: #selector(self.updateConstraints), for:.touchUpInside)
         return button
     }()

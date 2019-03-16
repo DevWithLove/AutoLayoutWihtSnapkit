@@ -15,6 +15,9 @@
 		023781E9223C5127004613E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023781E7223C5127004613E0 /* LaunchScreen.storyboard */; };
 		023781F4223C5127004613E0 /* AutoLayoutWihtSnapkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023781F3223C5127004613E0 /* AutoLayoutWihtSnapkitTests.swift */; };
 		02F7F81E223CCE0800279CD4 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F7F81D223CCE0800279CD4 /* EarlGrey.swift */; };
+		02F7F823223CD46600279CD4 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F7F822223CD46600279CD4 /* HomePage.swift */; };
+		02F7F826223CDE6500279CD4 /* ElementsAccessibilityIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F7F825223CDE6500279CD4 /* ElementsAccessibilityIdentifier.swift */; };
+		02F7F827223CDE6500279CD4 /* ElementsAccessibilityIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F7F825223CDE6500279CD4 /* ElementsAccessibilityIdentifier.swift */; };
 		1F95C90C10398D8ECB5AEA9B /* Pods_AutoLayoutWihtSnapkitTestsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855FBFB8E33AEEDA5D78D478 /* Pods_AutoLayoutWihtSnapkitTestsUI.framework */; };
 		3210A466B949D519A8F2BBD0 /* Pods_AutoLayoutWihtSnapkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA22E493612D5CEC52E5810 /* Pods_AutoLayoutWihtSnapkit.framework */; };
 		D7AF5FC4DD0F88FE20A77BC2 /* Pods_AutoLayoutWihtSnapkitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E8DEDDE93E5DA01FEAE7C4 /* Pods_AutoLayoutWihtSnapkitTests.framework */; };
@@ -52,6 +55,8 @@
 		023781F3223C5127004613E0 /* AutoLayoutWihtSnapkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutWihtSnapkitTests.swift; sourceTree = "<group>"; };
 		023781F5223C5127004613E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02F7F81D223CCE0800279CD4 /* EarlGrey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		02F7F822223CD46600279CD4 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		02F7F825223CDE6500279CD4 /* ElementsAccessibilityIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsAccessibilityIdentifier.swift; sourceTree = "<group>"; };
 		17189739B39454A842BDEAF5 /* Pods-AutoLayoutWihtSnapkitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutWihtSnapkitTests.debug.xcconfig"; path = "Target Support Files/Pods-AutoLayoutWihtSnapkitTests/Pods-AutoLayoutWihtSnapkitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F20F7119DB853AB9B36EB67 /* Pods-AutoLayoutWihtSnapkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutWihtSnapkit.release.xcconfig"; path = "Target Support Files/Pods-AutoLayoutWihtSnapkit/Pods-AutoLayoutWihtSnapkit.release.xcconfig"; sourceTree = "<group>"; };
 		60E8DEDDE93E5DA01FEAE7C4 /* Pods_AutoLayoutWihtSnapkitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayoutWihtSnapkitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +100,7 @@
 		02046A0F223CC5240069F4EB /* AutoLayoutWihtSnapkitTestsUI */ = {
 			isa = PBXGroup;
 			children = (
+				02F7F821223CD41900279CD4 /* Pages */,
 				02046A10223CC5240069F4EB /* AutoLayoutWihtSnapkitTestsUI.swift */,
 				02046A12223CC5240069F4EB /* Info.plist */,
 				02F7F81D223CCE0800279CD4 /* EarlGrey.swift */,
@@ -133,6 +139,7 @@
 				023781E5223C5127004613E0 /* Assets.xcassets */,
 				023781E7223C5127004613E0 /* LaunchScreen.storyboard */,
 				023781EA223C5127004613E0 /* Info.plist */,
+				02F7F825223CDE6500279CD4 /* ElementsAccessibilityIdentifier.swift */,
 			);
 			path = AutoLayoutWihtSnapkit;
 			sourceTree = "<group>";
@@ -144,6 +151,14 @@
 				023781F5223C5127004613E0 /* Info.plist */,
 			);
 			path = AutoLayoutWihtSnapkitTests;
+			sourceTree = "<group>";
+		};
+		02F7F821223CD41900279CD4 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				02F7F822223CD46600279CD4 /* HomePage.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 		B87AA8E5E1A31C931AA382E1 /* Frameworks */ = {
@@ -419,7 +434,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F7F827223CDE6500279CD4 /* ElementsAccessibilityIdentifier.swift in Sources */,
 				02F7F81E223CCE0800279CD4 /* EarlGrey.swift in Sources */,
+				02F7F823223CD46600279CD4 /* HomePage.swift in Sources */,
 				02046A11223CC5240069F4EB /* AutoLayoutWihtSnapkitTestsUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +447,7 @@
 			files = (
 				023781E1223C5126004613E0 /* ViewController.swift in Sources */,
 				023781DF223C5126004613E0 /* AppDelegate.swift in Sources */,
+				02F7F826223CDE6500279CD4 /* ElementsAccessibilityIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

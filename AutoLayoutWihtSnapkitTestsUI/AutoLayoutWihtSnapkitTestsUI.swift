@@ -22,6 +22,9 @@ class AutoLayoutWihtSnapkitTestsUI: XCTestCase {
     func testPresenceOfKeyWindow() {
         EarlGrey.selectElement(with: grey_keyWindow())
             .assert(grey_sufficientlyVisible())
+        
+        let homePage = HomePage()
+        homePage.updateButton.tap()
     }
  
 
