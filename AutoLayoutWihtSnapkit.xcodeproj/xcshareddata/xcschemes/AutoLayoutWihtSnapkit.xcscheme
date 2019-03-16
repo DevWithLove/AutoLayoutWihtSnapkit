@@ -34,6 +34,34 @@
                ReferencedContainer = "container:AutoLayoutWihtSnapkit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "023781EE223C5127004613E0"
+               BuildableName = "AutoLayoutWihtSnapkitTests.xctest"
+               BlueprintName = "AutoLayoutWihtSnapkitTests"
+               ReferencedContainer = "container:AutoLayoutWihtSnapkit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "02046A0D223CC5240069F4EB"
+               BuildableName = "AutoLayoutWihtSnapkitTestsUI.xctest"
+               BlueprintName = "AutoLayoutWihtSnapkitTestsUI"
+               ReferencedContainer = "container:AutoLayoutWihtSnapkit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

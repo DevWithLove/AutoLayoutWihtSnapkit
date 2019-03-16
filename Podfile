@@ -15,7 +15,7 @@ target 'AutoLayoutWihtSnapkit' do
 
   target 'AutoLayoutWihtSnapkitTestsUI' do
     inherit! :search_paths
-    pod 'EarlGrey'
+    pod 'EarlGrey', '~> 1.15'
   end
 
 end
